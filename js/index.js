@@ -1,195 +1,195 @@
 $(function(){
     var imgArray = [
         {
-            "url": "images/001.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/001.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/002.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/002.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/003.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/003.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/004.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/004.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/005.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/005.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/006.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/006.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/007.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/007.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/008.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/008.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/009.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/009.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/010.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/010.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/011.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/011.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/012.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/012.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/013.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/013.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/014.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/014.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/015.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/015.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/016.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/016.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/017.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/017.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/018.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/018.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/019.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/019.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/020.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/020.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/021.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/021.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/022.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/022.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/023.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/023.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/024.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/024.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/025.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/025.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/026.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/026.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/027.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/027.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/028.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/028.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/029.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/029.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/030.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/030.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/031.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/031.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/032.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/032.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/033.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/033.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/034.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/034.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/035.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/035.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/036.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/036.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/037.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/037.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/038.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/038.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/039.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/039.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/040.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/040.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/041.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/041.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/042.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/042.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/043.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/043.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/044.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/044.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/045.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/045.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/046.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/046.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/047.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/047.jpg",
             "title": "jQuery瀑布流特效"
         },
         {
-            "url": "images/048.jpg",
+            "ur;": "	http://zaw-1254097928.cosgz.myqcloud.com/048.jpg",
             "title": "jQuery瀑布流特效"
         }
     ];
