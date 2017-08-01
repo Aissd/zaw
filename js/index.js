@@ -1,6 +1,3 @@
-$(document).ready(function () {
-});
-
 window.onload = function () {
     var list = [{
             "url": "http://zaw01-1254097928.cosgz.myqcloud.com/001.jpg",
