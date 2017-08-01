@@ -2,7 +2,7 @@ $(document).ready(function () {
     $(".mygallery").chromaGallery({
         color: '#000',
         gridMargin: 15,
-        maxColumns: 5,
+        maxColumns: 3,
         dof: true,
         screenOpacity: 0.8
     });
