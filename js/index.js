@@ -196,12 +196,12 @@ $(function(){
     var html = "";
     for(var i = 0, len = imgArray.length; i < len; i++){
         html += "<div class='cell'>" + 
-                        "<a href='javascript:;'>" + 
-                        "<img src='" + imgArray[i].url + "' /></a>" + 
-                        "<p>" + 
-                            "<a href='javascript:;'>" + imgArray[i].title + "</a>" + 
-                        "</p>" + 
-                    "</div>'";
+                    "<a href='javascript:;'>" + 
+                    "<img src='" + imgArray[i].url + "' /></a>" + 
+                    // "<p>" + 
+                    //     "<a href='javascript:;'>" + imgArray[i].title + "</a>" + 
+                    // "</p>" + 
+                "</div>'";
     }
     $('#waterfall').append(html);
     // 瀑布流初始化
