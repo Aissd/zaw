@@ -1,7 +1,6 @@
 /* reset */
 body,
 html {
-    height: 100%;
     background-color: #fff;
     font-size: 14px;
     margin: 0;
@@ -16,9 +15,11 @@ a {
 }
 
 .m-t-8{margin-top: 8px;}
+.m-t-12{margin-top: 12px;}
 .m-t-80{margin-top: 80px;}
+.m-tb-12 {margin-top: 12px;margin-bottom: 12px;}
 .m-tb-20 {margin-top: 20px;margin-bottom: 20px;}
-.m-b-8 {margin-bottom: 8px;}
+.m-b-4 {margin-bottom: 4px;}
 
 .fix:after {
     content: '';

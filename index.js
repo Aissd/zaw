@@ -18,7 +18,6 @@ window.onload = function () {
 
 function getJson() {
     var dataObj = {
-        
         list:     
             [
                 {
