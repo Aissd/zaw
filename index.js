@@ -5,14 +5,16 @@ window.onload = function () {
     for (var i = 0, len = dataObj.list.length; i < len; i++) {
         html += "<img src='" + dataObj.list[i].url + "' alt='" + dataObj.list[i].title + "' data-largesrc='" + dataObj.list[i].url + "'>";
     }
-    $("#mygallery").append(html);
 
-    $(".mygallery").chromaGallery({
-        color: '#000',
-        gridMargin: 20,
-        maxColumns: 3,
-        dof: true,
-        screenOpacity: 0.8
+    $("#mygallery").append(html).chromaGallery({
+        color: '#000', // 设置图片画廊的背景色。默认值为“chroma”，它使用图片的主导颜色作为背景色
+        gridMargin: 20, // 网格图片之间的间隔
+        maxColumns: 3, // 网格布局的最大列数
+        dof: false, // 深度背景效果，对性能有影响 
+        fullscreen: false, // 是否添加全屏模式
+        lazyLoad: true, // 是否启用图片懒加载 
+        items: null, // 要加载的图片数组
+        screenOpacity: 0.8 // 屏幕的透明度，值在0-1之间
     });
 };
 
@@ -144,78 +146,78 @@ function getJson() {
                     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/031.jpg",
                     title: "红酒展架"
                 },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/032.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/033.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/034.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/035.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/036.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/037.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/038.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/039.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/040.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/041.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/042.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/043.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/044.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/045.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/046.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/047.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/048.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/049.jpg",
-                    title: "产品详情页"
-                },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/032.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/033.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/034.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/035.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/036.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/037.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/038.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/039.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/040.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/041.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/042.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/043.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/044.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/045.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/046.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/047.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/048.jpg",
+                //     title: "产品详情页"
+                // },
+                // {
+                //     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/049.jpg",
+                //     title: "产品详情页"
+                // },
                 {
                     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/050.jpg",
                     title: "海报"

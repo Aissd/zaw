@@ -1,5 +1,4 @@
 .content {
-    width: 1024px;
     height: 100%;
     margin: 0 auto;
 }
@@ -35,7 +34,7 @@
 	position:absolute;
 	top:0;
 	left:0;
-width:110px;
+    width:110px;
 	font-weight:bold;
 	font-size:13px;
 	color:#ffffff;

@@ -10,7 +10,33 @@
 </head>
 <body>
     
-    <script src="./js/jquery-1.11.0.min.js"></script>
-    <script src="./js/poster.js"></script>
+    <div class="zaw-container">
+        <!-- 顶部菜单  -->
+        <div class="subnav-content-wrap" id="tab_anchor">
+            <div class="subnav-wrap">
+                <div class="top-hull">
+                    <div class="subnav-contentbox">
+                        <div class="tab-nav-container">
+                            <ul class="subnav-content text-center">
+                                <li><a href="../../index.html" target="_blank">首页</a></li>
+                                <li class="current"><a href="../poster/poster.html" target="_blank">海报</a></li>
+                                <li><a href="../detail/detail.html" target="_blank">详情页</a></li>
+                                <li><a href="../resume/resume.html" target="_blank">个人简历</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 瀑布流  -->
+        <div class="waterfall-container">
+            <div class="waterfall-content">
+                <div id="water-bar" class="water-bar"></div>
+            </div>
+        </div>
+    </div>
+    <script src="../../dist/scripts/jquery-1.11.0.min.js"></script>
+    <script src="../../dist/scripts/jquery.waterfall.js"></script>
+    <script src="./poster.js"></script>
 </body>
 </html>
