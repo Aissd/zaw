@@ -205,7 +205,7 @@ window.onload = function () {
 
     $(".mygallery").chromaGallery({
         color: '#000',
-        gridMargin: 30,
+        gridMargin: 20,
         maxColumns: 3,
         dof: true,
         screenOpacity: 0.8
