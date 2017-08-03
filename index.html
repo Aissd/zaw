@@ -5,20 +5,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>zaw</title>
+    <title>首页</title>
     <link rel="stylesheet" href="./dist/stylesheets/chromagallery.min.css" />
-    <link rel="stylesheet" href="./dist/stylesheets/index.css" />
+    <link rel="stylesheet" href="./dist/stylesheets/common.css" />
+    <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
-    <article>
+    <!-- 顶部菜单  -->
+    <div class="subnav-content-wrap" id="tab_anchor">
+        <div class="subnav-wrap">
+            <div class="top-hull">
+                <div class="subnav-contentbox">
+                    <div class="tab-nav-container">
+                        <ul class="subnav-content text-center">
+                            <li class="current homecate"><a href="./index.html">首页</a></li>
+                            <li><a href="./page/poster/poster.html">海报</a></li>
+                            <li><a href="./page/detail/detail.html">详情页</a></li>
+                            <li><a href="./page/resume/resume.html">个人简历</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 瀑布流  -->
+    <article class="m-t-80">
         <div class="content">
             <div id="mygallery" class="chroma-gallery mygallery"></div>
         </div>
     </article>
-    <script src="./js/jquery-1.11.0.min.js"></script>
+
+    <script src="./dist/scripts/jquery-1.11.0.min.js"></script>
     <script src="./dist/scripts/chromagallery.pkgd.min.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>

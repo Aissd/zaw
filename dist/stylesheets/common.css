@@ -1,0 +1,141 @@
+/* reset */
+body,
+html {
+    height: 100%;
+    background-color: #fff;
+    font-size: 14px;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/* common */
+.f12 {
+    font-size: 12px;
+}
+
+.m-t-8{margin-top: 8px;}
+.m-t-80{margin-top: 80px;}
+.m-tb-20 {margin-top: 20px;margin-bottom: 20px;}
+.m-b-8 {margin-bottom: 8px;}
+
+.fix:after {
+    content: '';
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    display: block;
+}
+
+/* 顶部菜单 */
+.subnav-content-wrap {
+    width: 1024px;
+    min-height: 56px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -512px;
+    z-index: 1;
+    
+}
+
+.subnav-wrap {
+    box-sizing: border-box
+}
+
+.subnav-wrap .top-hull {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    position: relative
+}
+
+.subnav-wrap .subnav-contentbox {
+    margin: 0 auto;
+    position: relative
+}
+
+.subnav-wrap .subnav-contentbox .subnav-content {
+    margin-bottom: -1px;
+    font-size: 16px;
+    color: #999;
+    margin-top: 0;
+}
+
+.subnav-wrap .subnav-contentbox .subnav-content>li {
+    padding: 0 30px;
+    line-height: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    position: relative
+}
+
+.subnav-wrap .subnav-contentbox .subnav-content>li>a {
+    padding: 19px 0;
+    display: block;
+    border-bottom: 2px solid transparent;
+    color: #999;
+}
+
+.subnav-wrap .subnav-contentbox .subnav-content>li.current>a,
+.subnav-wrap .subnav-contentbox .subnav-content>li>a:hover {
+    color: #282828;
+    border-bottom: 2px solid #444
+}
+
+/* css3 动画 */
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both
+}
+
+.animated.infinite {
+    animation-iteration-count: infinite
+}
+
+.animated.hinge {
+    animation-duration: 2s
+}
+
+.animated.bounceIn,
+.animated.bounceOut,
+.animated.flipOutX,
+.animated.flipOutY {
+    animation-duration: .75s
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%,0,0)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+
+.fadeInLeft {
+    animation-name: fadeInLeft
+}
