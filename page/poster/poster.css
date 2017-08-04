@@ -1,24 +1,3 @@
 .zaw-container {
     width: auto;
 }
-
-.waterfall-container {
-    margin-top: 56px;
-}
-
-.water-bar {
-    margin: auto;
-    position: relative;
-}
-
-.waterfall-item {
-    float: left;
-    padding: 20px;
-    background-color: #fff;
-    cursor: pointer;
-}
-
-.waterfall-item img {
-    width: 360px;
-    border: 1px solid #fff;
-}

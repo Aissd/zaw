@@ -24,6 +24,22 @@ function getJson() {
         list:     
             [
                 {
+                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/038.jpg",
+                    title: "产品详情页"
+                },
+                {
+                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/041.jpg",
+                    title: "产品详情页"
+                },
+                {
+                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/048.jpg",
+                    title: "产品详情页"
+                },
+                {
+                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/049.jpg",
+                    title: "产品详情页"
+                },
+                {
                     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/032.jpg",
                     title: "产品详情页"
                 },
@@ -48,19 +64,11 @@ function getJson() {
                     title: "产品详情页"
                 },
                 {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/038.jpg",
-                    title: "产品详情页"
-                },
-                {
                     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/039.jpg",
                     title: "产品详情页"
                 },
                 {
                     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/040.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/041.jpg",
                     title: "产品详情页"
                 },
                 {
@@ -86,57 +94,8 @@ function getJson() {
                 {
                     "url": "http://zaw001-1254097928.cosgz.myqcloud.com/047.jpg",
                     title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/048.jpg",
-                    title: "产品详情页"
-                },
-                {
-                    "url": "http://zaw001-1254097928.cosgz.myqcloud.com/049.jpg",
-                    title: "产品详情页"
                 }
         ]
     };
     return dataObj;
 }
-
-// $(function () {
-//     $("#water-bar").waterfall({
-//         itemClass: ".box",
-//         minColCount: 2,
-//         spacingHeight: 10,
-//         resizeable: true,
-//         ajaxCallback: function (success, end) {
-//             var data = {
-//                 "data": [
-//                     {
-//                         "src": "03.jpg"
-//                     }, {
-//                         "src": "04.jpg"
-//                     }, {
-//                         "src": "02.jpg"
-//                     }, {
-//                         "src": "05.jpg"
-//                     }, {
-//                         "src": "01.jpg"
-//                     }, {
-//                         "src": "06.jpg"
-//                     }
-//                 ]
-//             };
-//             var str = "";
-//             var templ = '<div class="box" style="opacity:0;filter:alpha(opacity=0);">' +
-//                             '<div class="pic">' +
-//                                 '<img src="img/{{src}}" />' +
-//                             '</div>' +
-//                         '</div>';
-
-//             for (var i = 0; i < data.data.length; i++) {
-//                 str += templ.replace("{{src}}", data.data[i].src);
-//             }
-//             $(str).appendTo($("#water-bar"));
-//             success();
-//             end();
-//         }
-//     });
-// });

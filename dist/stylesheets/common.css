@@ -1,29 +1,53 @@
 /* reset */
+
 body,
 html {
     background-color: #fff;
     font-size: 14px;
     margin: 0;
 }
+
 a {
     text-decoration: none;
 }
 
+
 /* common */
+
 .zaw-container {
     width: 1024px;
-    margin: 0 auto;
+    margin: 80px auto;
 }
+
 .f12 {
     font-size: 12px;
 }
 
-.m-t-8 {margin-top: 8px;}
-.m-t-12 {margin-top: 12px;}
-.m-t-80 {margin-top: 80px;}
-.m-tb-12 {margin-top: 12px;margin-bottom: 12px;}
-.m-tb-20 {margin-top: 20px;margin-bottom: 20px;}
-.m-b-4 {margin-bottom: 4px;}
+.m-t-8 {
+    margin-top: 8px;
+}
+
+.m-t-12 {
+    margin-top: 12px;
+}
+
+.m-t-80 {
+    margin-top: 80px;
+}
+
+.m-tb-12 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.m-tb-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.m-b-4 {
+    margin-bottom: 4px;
+}
 
 .fix:after {
     content: '';
@@ -33,27 +57,27 @@ a {
     display: block;
 }
 
+
 /* 顶部菜单 */
+
 .subnav-content-wrap {
-    width: 1024px;
+    width: 100%;
     min-height: 56px;
     background-color: #fff;
-    margin: 0 auto;
     position: fixed;
     top: 0;
-    left: 50%;
-    margin-left: -512px;
     z-index: 1;
-    
 }
 
 .subnav-wrap {
-    box-sizing: border-box
+    box-sizing: border-box;
+    width: 1024px;
+    margin: 0 auto;
+    border-bottom: 1px solid #eee;
 }
 
 .subnav-wrap .top-hull {
     width: 100%;
-    border-bottom: 1px solid #eee;
     position: relative
 }
 
@@ -94,7 +118,33 @@ a {
     border-bottom: 2px solid #444
 }
 
+
+/* 海报页，详情页瀑布流 */
+
+.waterfall-container {
+    margin-top: 56px;
+}
+
+.water-bar {
+    margin: auto;
+    position: relative;
+}
+
+.waterfall-item {
+    float: left;
+    padding: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.waterfall-item img {
+    width: 300px;
+    border: 1px solid #fff;
+}
+
 /* css3 动画 */
+
 .animated {
     animation-duration: 2s;
     animation-fill-mode: both
@@ -119,7 +169,6 @@ a {
     0% {
         opacity: 0
     }
-
     to {
         opacity: 1
     }
@@ -132,9 +181,8 @@ a {
 @keyframes fadeInLeft {
     0% {
         opacity: 0;
-        transform: translate3d(-100%,0,0)
+        transform: translate3d(-100%, 0, 0)
     }
-
     to {
         opacity: 1;
         transform: none
