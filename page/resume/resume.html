@@ -7,11 +7,11 @@
     <title>个人简历</title>
     <link rel="icon" type="image/x-icon" href="./../../dist/icon/favicon.ico" />
     <link rel="stylesheet" href="./../../dist/stylesheets/common.css" />
+    <link rel="stylesheet" href="./../../dist/stylesheets/jquery.fullpage.css" />
     <link rel="stylesheet" href="./resume.css" />
 </head>
 <body>
-    <!-- 顶部菜单  -->
-    <div class="subnav-content-wrap">
+    <!-- <div class="subnav-content-wrap">
         <div class="subnav-wrap">
             <div class="top-hull">
                 <div class="subnav-contentbox">
@@ -28,7 +28,6 @@
         </div>
     </div>
     <div class="zaw-container">
-        <!--个人简历  -->
         <div class="resume-circle">
             <div class="resume-bg-circle"></div>
             <div class="resume-container">
@@ -91,8 +90,90 @@
                 </div>
             </div>
         </div>
+    </div> -->
+    <!-- 菜单 -->
+    <ul id="archor-menu" class="archor-menu">
+        <li data-menuanchor="page1" class="active"><a href="#page1">个人资料</a></li>
+        <li data-menuanchor="page2"><a href="#page2">工作经历</a></li>
+        <li data-menuanchor="page3"><a href="#page3">个人技能</a></li>
+        <li data-menuanchor="page4"><a href="#page4">感谢</a></li>
+    </ul>
+    <!-- 全屏滚动  -->
+    <div id="dowebok">
+        <div class="section">
+            <h3>个人资料</h3>
+            <div class="section-content">
+                <div class="section-bar animated fadeInLeft fix">
+                    <label>姓名</label>
+                    <span>邹艾雯</span>
+                </div>
+                <div class="section-bar animated fadeInLeft fix">
+                    <label>年龄</label>
+                    <span>26</span>
+                </div>
+                <div class="section-bar animated fadeInLeft fix">
+                    <label>工作年限</label>
+                    <span>4年</span>
+                </div>
+                <div class="section-bar animated fadeInLeft fix">
+                    <label>籍贯</label>
+                    <span>惠州</span>
+                </div>
+                <div class="section-bar animated fadeInLeft fix">
+                    <label>专业</label>
+                    <span>平面设计</span>
+                </div>
+                <div class="section-bar animated fadeInLeft fix">
+                    <label>联系电话</label>
+                    <span>15089279216</span>
+                </div>
+                <div class="section-bar animated fadeInLeft fix">
+                    <label>QQ</label>
+                    <span>364373758</span>
+                </div>
+                <div class="section-bar animated fadeInLeft fix">
+                    <label>Email</label>
+                    <span>364373758@qq.com</span>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h3>工作经历</h3>
+            <div class="section-bar animated fadeInLeft m-tb-12 fix">
+                <label>工作经历</label>
+                <span>
+                    <div class="m-b-4">卡默视觉广告 / 2015.12-2017.7</div>
+                    <span class="f18"> 
+                        平面设计师（平面设计兼电商设计）
+                        负责产品后续延伸的设计项目，包括画册、折页、海报、包装设计等印刷类设计，
+                        还有电商设计方面，主要以产品详情页设计为主和一些海报设计
+                    </span>
+                    <div class="m-t-12 m-b-4">红印广告 / 2013.8-2015.10</div>
+                    <span class="f18">平面设计师（海报、画册、折页和活动宣传物料等）</span>
+                </span>
+            </div>
+        </div>
+        <div class="section">
+            <h3>个人技能</h3>
+            <div class="section-bar animated fadeInLeft fix">
+                <label>软件</label>
+                <span>Ps、Ai、Cdr、Dw</span>
+            </div>
+            <div class="section-bar animated fadeInLeft fix">
+                <label>性格</label>
+                <span>开朗，勤奋好学，抗压能力强，能够快速融合团队合作</span>
+            </div>
+            <div class="section-bar animated fadeInLeft fix">
+                <label>兴趣爱好</label>
+                <span>运动、看各类书、绘画、学习新事物提升自己</span>
+            </div>
+        </div>
+        <div class="section">
+            <h3>谢谢</h3>
+        </div>
     </div>
     <script src="../../dist/scripts/jquery-1.11.0.min.js"></script>
+    <script src="../../dist/scripts/jquery.fullpage.js"></script>
     <script src="./resume.js"></script>
 </body>
 </html>

@@ -25,16 +25,70 @@
     margin-bottom: 6px;
 }
 
-.resume-bar > label {
+.resume-bar>label {
     width: 100px;
     float: left;
     text-align: right;
     color: #989898;
 }
 
-.resume-bar > span {
+.resume-bar>span {
     width: 290px;
     float: left;
     padding-left: 10px;
     color: #2d2d2d;
+}
+
+
+
+/* 全屏滚动 */
+.section {
+    text-align: center;
+    font: 50px "Microsoft Yahei";
+    color: #fff;
+}
+
+.section-content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.section-bar {
+    margin-bottom: 15px;
+}
+
+.section-bar > label {
+    float: left;
+    text-align: right;
+    width: 300px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.section-bar > span {
+    float: left;
+    text-align: left;
+    width: 440px;
+    color: #2d2d2d;
+    font-size: 30px;
+    padding-left: 60px;
+}
+
+/* 全品菜单 */
+.archor-menu {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.archor-menu li {
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.archor-menu li a {
+    color: #999;
 }
