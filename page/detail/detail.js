@@ -1,41 +1,29 @@
-$(function () {
+window.onload = function () {
     var dataObj = getJson();
+
     var html = '';
-    for(var i = 0, len = dataObj.list.length; i < len; i++){
-        // html += '<div class="waterfall-item">'+
-        //             '<img src="'+dataObj.list[i].url+'"  alt="'+dataObj.list[i].title+'" />'+
-        //         '</div>';
-        html += '<div class="grid__item" data-size="1280x853">' +
-                    '<a href="'+dataObj.list[i].url+'" class="img-wrap">' +
-                        '<img src="'+dataObj.list[i].url+'" alt="'+dataObj.list[i].title+'" />' +
-                        // '<div class="description description--grid">'+dataObj.list[i].title+'</div>' +
-                    '</a>' +
-                '</div>';
+    for (var i = 0, len = dataObj.list.length; i < len; i++) {
+        // html += "<img src='" + dataObj.list[i].url + "' alt='" + dataObj.list[i].title + "' data-largesrc='" + dataObj.list[i].url + "'>";
+        html += "<img src='" + dataObj.list[i].url + "' data-largesrc='" + dataObj.list[i].url + "'>";
     }
-    $('#grid').append(html);
 
-    // $('.img-wrap').on('click', function(e){
-    //     if (e && e.preventDefault) {
-    //         //阻止默认浏览器动作(W3C) 
-    //         e.preventDefault(); 
-    //     } else {
-    //         //IE中阻止函数器默认动作的方式 
-    //         window.event.returnValue = false; 
-    //         return false;
-    //     }
-    // });
-    
-    // $("#water-bar").append(html).waterfall({
-    //     itemClass: ".waterfall-item",
-    //     minColCount: 3,
-    //     spacingHeight: 10,
-    //     resizeable: true
-    // });
+    $("#mygallery").append(html).chromaGallery({
+        color: '#000', // 设置图片画廊的背景色。默认值为“chroma”，它使用图片的主导颜色作为背景色
+        gridMargin: 20, // 网格图片之间的间隔
+        maxColumns: 3, // 网格布局的最大列数
+        dof: false, // 深度背景效果，对性能有影响 
+        fullscreen: false, // 是否添加全屏模式
+        lazyLoad: true, // 是否启用图片懒加载 
+        items: null, // 要加载的图片数组
+        screenOpacity: 0.8 // 屏幕的透明度，值在0-1之间
+    });
 
-    // $('#water-bar').on('click', '.waterfall-item', function(e){
-    //     window.open("./../review/review.html?url=" + e.target.currentSrc + '&alt=' + e.target.alt);
-    // });
-});
+    $(document).on('click', '.chrg-item', function(e){
+        console.log($(e.currentTarget).find('img').attr('src'));
+        var url = $(e.currentTarget).find('img').attr('src');
+        window.open('../review/review.html?url=' + url);
+    });
+};
 
 function getJson() {
     var dataObj = {

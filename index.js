@@ -21,7 +21,7 @@ window.onload = function () {
     $(document).on('click', '.chrg-item', function(e){
         console.log($(e.currentTarget).find('img').attr('src'));
         var url = $(e.currentTarget).find('img').attr('src');
-        window.location.href = 'page/review/review.html?url=' + url;
+        window.open('page/review/review.html?url=' + url);
     });
 };
 
@@ -30,119 +30,7 @@ function getJson() {
         list:     
             [
                 {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/001.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/002.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/003.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/004.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/005.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/006.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/007.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/008.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/009.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/010.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/011.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/012.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/013.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/014.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/015.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/016.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/017.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/018.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/019.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/020.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/021.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/022.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/023.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/024.png",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/025.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/026.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/027.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/028.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/029.jpg",
+                    "url": "	http://zaw002-1254097928.cosgz.myqcloud.com/storeIndex/001.jpg",
                     title: "首页"
                 }
         ]

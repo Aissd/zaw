@@ -2,10 +2,6 @@
     width: auto;
 }
 
-body,
-html{ 
-    background-color:#333;
-}
 .grid {
 	position: relative;
 	margin: 0 auto;
