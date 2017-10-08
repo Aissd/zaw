@@ -3,7 +3,8 @@ window.onload = function () {
 
     var html = '';
     for (var i = 0, len = dataObj.list.length; i < len; i++) {
-        html += "<img src='" + dataObj.list[i].url + "' alt='" + dataObj.list[i].title + "' data-largesrc='" + dataObj.list[i].url + "'>";
+        // html += "<img src='" + dataObj.list[i].url + "' alt='" + dataObj.list[i].title + "' data-largesrc='" + dataObj.list[i].url + "'>";
+        html += "<img src='" + dataObj.list[i].url + "' data-largesrc='" + dataObj.list[i].url + "'>";
     }
 
     $("#mygallery").append(html).chromaGallery({
@@ -15,6 +16,12 @@ window.onload = function () {
         lazyLoad: true, // 是否启用图片懒加载 
         items: null, // 要加载的图片数组
         screenOpacity: 0.8 // 屏幕的透明度，值在0-1之间
+    });
+
+    $(document).on('click', '.chrg-item', function(e){
+        console.log($(e.currentTarget).find('img').attr('src'));
+        var url = $(e.currentTarget).find('img').attr('src');
+        window.location.href = 'page/review/review.html?url=' + url;
     });
 };
 
@@ -132,6 +139,10 @@ function getJson() {
                 },
                 {
                     "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/028.jpg",
+                    title: "首页"
+                },
+                {
+                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/029.jpg",
                     title: "首页"
                 }
         ]
