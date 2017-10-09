@@ -1,0 +1,4 @@
+function Modal() {
+    var html = '';
+    
+}

@@ -18,10 +18,18 @@ window.onload = function () {
         screenOpacity: 0.8 // 屏幕的透明度，值在0-1之间
     });
 
+    // 点击图片
     $(document).on('click', '.chrg-item', function(e){
-        console.log($(e.currentTarget).find('img').attr('src'));
         var url = $(e.currentTarget).find('img').attr('src');
-        window.open('page/review/review.html?url=' + url);
+        var html = '<img src="' + url + '" />';
+        $('html, body').animate({'scrollTop': 0}, 200);
+        $('#modal-content').empty().append(html);
+        $('#modal-container').show();
+    });
+
+    // 点击关闭模态框
+    $('#modal-container').on('click', '#modal-close', function(e){
+        $('#modal-container').hide();
     });
 };
 
@@ -30,7 +38,19 @@ function getJson() {
         list:     
             [
                 {
-                    "url": "	http://zaw002-1254097928.cosgz.myqcloud.com/storeIndex/001.jpg",
+                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/storeIndex/001.jpg",
+                    title: "首页"
+                },
+                {
+                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/storeIndex/002.jpg",
+                    title: "首页"
+                },
+                {
+                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/storeIndex/003.jpg",
+                    title: "首页"
+                },
+                {
+                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/storeIndex/004.jpg",
                     title: "首页"
                 }
         ]
