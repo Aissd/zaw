@@ -132,22 +132,6 @@ function getJson() {
                 {
                     "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/024.png",
                     title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/025.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/026.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/027.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/index/028.jpg",
-                    title: "首页"
                 }
         ]
     };
