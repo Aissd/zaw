@@ -23,7 +23,9 @@ window.onload = function () {
         var url = $(e.currentTarget).find('img').attr('src');
         var html = '<img src="' + url + '" />';
         $('html, body').animate({'scrollTop': 0}, 200);
-        $('#modal-content').empty().append(html);
+        $('#modal-content').empty().append(html).find('img').css({
+            'width': 1200
+        });
         $('#modal-container').show();
     });
 
