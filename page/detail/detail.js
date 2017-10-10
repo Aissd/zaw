@@ -21,11 +21,20 @@ window.onload = function () {
     // 点击图片
     $(document).on('click', '.chrg-item', function(e){
         var url = $(e.currentTarget).find('img').attr('src');
+        var naturalWidth = $(e.currentTarget).find('img')[0].naturalWidth;
         var html = '<img src="' + url + '" />';
         $('html, body').animate({'scrollTop': 0}, 200);
-        $('#modal-content').empty().append(html).find('img').css({
-            'width': 1200
-        });
+        var modalContent = $('#modal-content');
+        modalContent.empty().append(html);
+        if(naturalWidth > 1200) {
+            modalContent.find('img').css({
+                'width': 1200
+            });
+        } else {
+            modalContent.find('img').css({
+                'width': naturalWidth
+            });
+        }
         $('#modal-container').show();
     });
 
