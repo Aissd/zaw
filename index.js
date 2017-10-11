@@ -54,6 +54,14 @@ function getJson() {
                     title: "首页"
                 },
                 {
+                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/storeIndex/009.jpg",
+                    title: "首页"
+                },
+                {
+                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/storeIndex/010.jpg",
+                    title: "首页"
+                },
+                {
                     "url": "http://zaw002-1254097928.cosgz.myqcloud.com/storeIndex/005.jpg",
                     title: "首页"
                 },
@@ -67,14 +75,6 @@ function getJson() {
                 },
                 {
                     "url": "http://zaw002-1254097928.cosgz.myqcloud.com/storeIndex/008.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/storeIndex/009.jpg",
-                    title: "首页"
-                },
-                {
-                    "url": "http://zaw002-1254097928.cosgz.myqcloud.com/storeIndex/010.jpg",
                     title: "首页"
                 }
         ]
